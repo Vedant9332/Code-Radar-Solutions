@@ -4,6 +4,6 @@
 int main() {
     double x;
     scanf("%l",&x);
-    printf("You entered: %l",x);
+    printf("You entered: %.4l",x);
     return 0;
 }
