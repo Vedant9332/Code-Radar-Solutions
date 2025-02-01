@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<s>
 int main() {
     int a, b;
     char opr;
