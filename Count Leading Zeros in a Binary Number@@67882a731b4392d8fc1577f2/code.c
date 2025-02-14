@@ -8,7 +8,7 @@ int main(){
         if((num&(1<<32-i))!=0){
             break;
         }
-        printf("%d",count);
     }
+    printf("%d",count);
     return 0;
 }
