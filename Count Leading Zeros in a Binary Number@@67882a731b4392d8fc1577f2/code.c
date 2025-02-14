@@ -4,7 +4,7 @@ int main(){
     int count=0;
     scanf("%d",&num);
     for(int i=0;i<32-i;i++){
-        count+=1;
+        count=i;
         if((num&(1<<32-i))!=0){
             break;
         }
