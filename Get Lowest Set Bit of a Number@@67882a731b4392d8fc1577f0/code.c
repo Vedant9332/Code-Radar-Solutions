@@ -3,9 +3,9 @@ int main(){
     int num;
     scanf("%d",&num);
     for(int i=0;i<32;i++){
-        if(num&(1<<i)==1){
+        if(num&(1<<i)){
             printf(%d,i);
-            // break;
+            break;
         }
     }    
     return 0;
