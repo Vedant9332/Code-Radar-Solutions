@@ -2,7 +2,7 @@
 int main() {
     int a,b;
     char opr;
-    scanf("%d %d %c", &a, &b, &opr);
+    scanf("%d %d  %c", &a, &b, &opr);
     // getchar();
     // scanf("%c",&opr);
     switch(opr){
