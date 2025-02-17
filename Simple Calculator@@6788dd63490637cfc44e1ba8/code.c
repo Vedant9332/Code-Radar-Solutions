@@ -1,27 +1,34 @@
 #include <stdio.h>
+
 int main() {
-    int a,b;
+    int a, b;
     char opr;
-    scanf("%d %d", &a, &b,);
-    scanf(" %c",&opr);
-    // getchar();
-    // scanf("%c",&opr);
-    switch(opr){
-        case('+'):
-        printf("%d",a+b);
-        break;
-        case('-'):
-            printf("%d",a-b);
+
+    // Read input properly
+    scanf("%d %d", &a, &b);
+    scanf(" %c", &opr); // Space before %c to avoid buffer issues
+
+    switch (opr) {
+        case '+':
+            printf("%d", a + b);
             break;
-        case('*'):
-            printf("%d",a*b);
+        case '-':
+            printf("%d", a - b);
             break;
-        case('/'):
-            printf("%d",a/b);
+        case '*':
+            printf("%d", a * b);
+            break;
+        case '/':
+            if (b == 0) {
+                printf("error"); // Handle division by zero
+            } else {
+                printf("%d", a / b);
+            }
             break;
         default:
-            printf("Invalid");
+            printf("error"); // Handle invalid operator
             break;
     }
+
     return 0;
 }
