@@ -13,9 +13,9 @@ int main(){
         }   
     }
     elseif(isdigit(c)){
-        printf("Digit\n")
+        printf("Digit\n");
     }
     else{
-        printf("Special Character")
+        printf("Special Character");
     }
 }
