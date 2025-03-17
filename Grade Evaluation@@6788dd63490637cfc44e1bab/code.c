@@ -4,7 +4,6 @@ int main() {
     char grade;
     
     // Taking input
-    printf("Enter the grade (A, B, C, D, F): ");
     scanf(" %c", &grade);
 
     // Evaluating and printing the grade description
