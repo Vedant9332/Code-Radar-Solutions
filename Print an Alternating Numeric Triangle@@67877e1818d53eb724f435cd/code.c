@@ -15,7 +15,7 @@ int main() {
         for (int j = 1; j <= i; j++) {
             printf("%d ", start);
             // Alternate the number for the next column
-            // start = 1 - start; 
+            start = 1 - start; 
         }
         printf("\n"); // Move to the next line for the next row
     }
