@@ -4,11 +4,11 @@ int isPrime(int num){
         if(num%i==0){
             count++;
         }
-    if(count>2){
-        return 0;
+    if(count==2){
+        return 1;
     }
     else{
-        return 1;
+        return 0;
     }
     }
 }
