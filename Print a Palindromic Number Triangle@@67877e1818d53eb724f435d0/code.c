@@ -5,8 +5,8 @@ int main() {
     scanf("%d",&n);
     for(i=1;i<=n;i++){
         for(j=1;j<2*i;j++){
-            printf("%d",pattern);
         int pattern=(j<=i)?i:((2*i)+1-j);
+            printf("%d",pattern);
 
         }
         printf("\n");
