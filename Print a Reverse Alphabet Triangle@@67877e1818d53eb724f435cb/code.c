@@ -7,6 +7,7 @@ int main() {
         char pat='A';
         for(int j=1;j<=i;j++){
             printf("%c ",pat);
+            pat++;
         }
         printf("\n");
     }
