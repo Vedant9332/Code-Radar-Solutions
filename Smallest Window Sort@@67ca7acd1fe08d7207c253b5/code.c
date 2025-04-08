@@ -20,15 +20,17 @@ int findUnsortedSubarray(int arr[], int n){
             max_val=arr[i];
         }
     }
-    // for(int i=0;i<left;i++){
-    //     if(arr[i]>min_val){
-    //         left=i;
-    //     }
-    // }
-    // for(int i=n-1;i>right;i--){
-    //     if(arr[i]<max_val){
-    //         right=i;
-    //     }
-    // }
+    for(int i=0;i<left;i++){
+        if(arr[i]>min_val){
+            left=i;
+            break;
+        }
+    }
+    for(int i=n-1;i>right;i--){
+        if(arr[i]<max_val){
+            right=i;
+            break;
+        }
+    }
     return right-left+1;
 }
