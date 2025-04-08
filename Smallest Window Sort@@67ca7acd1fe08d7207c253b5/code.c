@@ -25,13 +25,13 @@ int findUnsortedSubarray(int arr[], int n){
         }
     }
     for(i=0;i<left;i++){
-        if(arr[i]=>min_val){
+        if(arr[i]>min_val){
             left=i;
             break;
         }
     }
     for(i=n-1;i>right;i--){
-        if(arr[i]<=max_val){
+        if(arr[i]<max_val){
             right=i;
             break;
         }
