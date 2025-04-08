@@ -11,7 +11,7 @@ int findUnsortedSubarray(int arr[], int n){
             break;
         }
     } 
-    int min_val=arr[left],min_val=arr[right];
+    int min_val=arr[left],max_val=arr[right];
     for(int i=left+1;i<=right;i++){
         if(arr[i]<min_val){
             min_val=arr[i];
