@@ -12,17 +12,17 @@ int main(){
         k=k%n;
     }
     while(n-k<n-1){
-        temp=arr[n-k];
+        int temp=arr[n-k];
         arr[n-k]=arr[n-1];
         arr[n-1]=temp;
     }
     while(0<n-k-1){
-        temp=arr[0];
+        int temp=arr[0];
         arr[0]=arr[n-k-1];
         arr[n-k-1]=temp;
     }
     while(0<n-1){
-        temp=arr[0];
+        int temp=arr[0];
         arr[0]=arr[n-1];
         arr[n-1]=temp;
     }
