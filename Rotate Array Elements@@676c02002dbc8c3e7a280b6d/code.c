@@ -17,8 +17,8 @@ int main(){
     }
     scanf("%d",&k);
     k=k%n;
-    reverse(arr,k,n-1);//reverse from k to end 
-    reverse(arr,0,k-1);//reverse till k
+    reverse(arr,n-k,n-1);//reverse from k to end 
+    reverse(arr,0,n-k-1);//reverse till k
     reverse(arr,0,n-1);//reverse whole arr
     for(int i=0;i<n;i++){
         printf("%d\n",arr[i]);
