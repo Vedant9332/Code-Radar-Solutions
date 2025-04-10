@@ -10,7 +10,7 @@ int main(){
         int leftCheck=(i==0)||(arr[i]>arr[i-1]);
         int rightCheck=(i==n-1)||(arr[i]>arr[i+1]);
     }
-    if(leftCheck&&rightCheck){
+    if(leftCheck && rightCheck){
         printf("%d",arr[i]);
     }
     return 0;
