@@ -12,7 +12,8 @@ int main() {
         if(visitedArr[i]==1){
             continue;
         }
-        for(int j=i;j<n;j++){
+        count=1;
+        for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
                 visitedArr[j]=1;
