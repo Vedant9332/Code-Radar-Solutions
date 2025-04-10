@@ -15,7 +15,7 @@ int main(){
             printf("%d",arr[n-1]);
         }
         else{
-            printf("%d",-1)
+            printf("%d",-1);
         }
     }
     return 0;
