@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int n;
+    int n,peak=0;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
@@ -12,8 +12,12 @@ int main(){
 
     if(leftCheck && rightCheck){
         printf("%d",arr[i]);
+        peak=1;
         break;
     }
+    }
+    if(peak==0){
+        printf("-1");
     }
     return 0;
 }
