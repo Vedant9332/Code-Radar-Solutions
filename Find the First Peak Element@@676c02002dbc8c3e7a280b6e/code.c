@@ -13,6 +13,7 @@ int main(){
         }
         else if((arr[n-1]>arr[n-i])){
             printf("%d",arr[n-1]);
+            break;
         }
         else{
             printf("%d",-1);
