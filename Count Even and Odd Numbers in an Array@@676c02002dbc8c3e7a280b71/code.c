@@ -9,10 +9,10 @@ int main() {
     }
     for(int i=0;i<n;i++){
         if(arr[i]%2==0){
-            countEven++
+            countEven++;
         }
         else if(arr[i]%2!=0){
-            countOdd++
+            countOdd++;
         }
     }
     printf("%d %d",countEven,countOdd);
