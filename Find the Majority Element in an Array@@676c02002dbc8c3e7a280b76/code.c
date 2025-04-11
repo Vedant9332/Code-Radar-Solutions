@@ -3,12 +3,12 @@
 int main() {
     int n,count=0;
     int majorityCriteria=n/2;
+    int visitedArr[n];
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int visitedArr[n];
     for(int i=0;i<n;i++){
         if (visitedArr[i]==1){
             continue;
