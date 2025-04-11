@@ -18,6 +18,9 @@ int main() {
                 second_largest=arr[i];
             }
         }
+        else{
+            second_largest=-1;
+        }
             printf("%d",second_largest);
     
     }
