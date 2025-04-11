@@ -7,7 +7,7 @@ int main() {
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int largest=-234567,second_largest=-234568,count=0;
+    int largest=arr[1],second_largest=arr[0],count=0;
         for(int i=0;i<n;i++){
             if(arr[i]>largest){
                 second_largest=largest;
