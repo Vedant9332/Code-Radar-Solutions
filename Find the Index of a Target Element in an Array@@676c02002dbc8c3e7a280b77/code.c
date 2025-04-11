@@ -12,8 +12,8 @@ int main(){
             index=i;
             break;
         }
-    printf("%d",index);
     }
+    printf("%d",index);
 
 
     }
