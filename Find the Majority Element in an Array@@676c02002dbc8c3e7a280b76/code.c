@@ -2,9 +2,9 @@
 
 int main() {
     int n,count=0;
-    int majorityCriteria=n/2;
      int visitedArr[n];
     scanf("%d",&n);
+    int majorityCriteria=n/2;
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
