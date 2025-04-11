@@ -25,6 +25,12 @@ int main() {
         // if(count==0){
         //     second_largest=-1;
         // }
+        if(second_largest==INT_MIN){
+            printf("-1\n");
+        }
+        else{
             printf("%d",second_largest);
+
+        }
     
     }
