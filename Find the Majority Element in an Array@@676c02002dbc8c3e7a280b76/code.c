@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n,count=0;
+    int n,count=0,found=0;
     scanf("%d",&n);
     int visitedArr[n];
     int majorityCriteria=n/2;
@@ -22,9 +22,11 @@ int main() {
         }
         if (count>majorityCriteria){
             printf("%d",arr[i]);
+            found=1;
+            break;
         }
-        else{
-            printf("-1");
-        }
+    }
+    if(found==0){
+        printf("-1");
     }
     }
