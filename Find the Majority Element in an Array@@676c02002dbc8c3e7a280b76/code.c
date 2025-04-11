@@ -10,7 +10,7 @@ int main() {
     int visitedArr[n];
     int majorityCriteria=n/2;
     for(int i=0;i<n;i++){
-        if visitedArr[i]==1{
+        if (visitedArr[i]==1){
             continue;
         }
         visitedArr[i]==1;
