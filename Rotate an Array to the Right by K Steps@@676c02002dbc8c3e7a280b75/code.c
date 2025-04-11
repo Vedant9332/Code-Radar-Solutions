@@ -21,6 +21,6 @@ int main(){
     reverse(arr,0,n-k-1);//reverse till k
     reverse(arr,0,n-1);//reverse whole arr
     for(int i=0;i<n;i++){
-        printf("%d\n",arr[i]);
+        printf("%d ",arr[i]);
     }
 }
