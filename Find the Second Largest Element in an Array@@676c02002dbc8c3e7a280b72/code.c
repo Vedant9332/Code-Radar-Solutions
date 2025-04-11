@@ -22,9 +22,9 @@ int main() {
                 // count++;
             }
         }
-        if(count==0){
-            second_largest=-1;
-        }
+        // if(count==0){
+        //     second_largest=-1;
+        // }
             printf("%d",second_largest);
     
     }
