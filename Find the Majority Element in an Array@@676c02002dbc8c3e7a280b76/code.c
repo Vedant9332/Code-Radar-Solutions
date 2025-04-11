@@ -8,7 +8,7 @@ int main() {
         scanf("%d",&arr[i]);
     }
     int visitedArr[n];
-    majorityCriteria=n/2;
+    int majorityCriteria=n/2;
     for(int i=0;i<n;i++){
         if visitedArr[i]==1{
             continue;
